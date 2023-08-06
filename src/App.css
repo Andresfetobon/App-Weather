@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=Fira+Sans:wght@600&family=Lato:wght@700;900&family=Poppins:wght@400;500;600&family=Roboto:wght@100&family=Unbounded:wght@200&display=swap');
+
+
+.app{
+    background-image: url("../public/images/weatherImage.jpg");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
