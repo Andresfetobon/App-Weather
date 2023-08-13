@@ -69,15 +69,21 @@
 
 @media screen and (max-width: 523px) {
     .weather{
-        max-width: 550px;
-        background-color: rgb(105, 194, 194);
-        padding: 1em;
+        background-color: rgb(107, 194, 194);
+        height: 500px;
     }
-    .weather__list {
-        font-size: 15px;
-        margin-top: 6em;
-    }
+
     .weather__img{
-        max-width: 0px;
+        position: absolute;
     }
+
+    .weather__info{
+        padding-top: 9em;
+    }
+    .weather__list{
+        font-size: large;
+    }
+
+    
+ 
 }
